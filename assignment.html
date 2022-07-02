@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            
+            h1 ~ li{color:rgb(248, 236, 236)}
+            /* li:nth-child(even){color: rgb(194, 187, 187);} */
+            .container{
+                border: 5px solid;
+                height:500px;
+                width:auto;
+                background: radial-gradient(circle,red 25%, orange 30% ,red 15%);
+            }
+            body{
+                background-color: steelblue;
+            }
+
+            #container{
+                background-color: orange;
+                display:flex;
+                /* flex-wrap: wrap; */
+                justify-content:center;
+                height:300px;
+                
+            }
+
+            .container-item{
+                background-color: yellow;
+                margin: 10px;
+                line-height: 50px;
+                text-align: center;
+                width: 100px;
+                flex-grow: 1;
+                flex-basis: 100px;
+            }
+
+            /* span{
+                background-color: yellow;
+                width: 100px;
+                height:200px;
+            }
+
+            #box1, #box3{
+                display: block;
+            } */
+            #box{
+                width=50px;
+                height: 50px;
+                display: block;
+                background-color: yellow;
+            }
+        </style>
+    </head>
+
+    <body>
+        <ul style="margin: 10px;; padding:0px;">
+            <li style="display:inline">hi</li>
+            <li style="display:inline"">hello</li>
+        </ul>
+        <div id="container">
+            <div class="container-item" style="align-self: flex-start;">box1</div>
+            <div class="container-item" style="align-self: center;">box2</div>
+            <div class="container-item" style="align-self: flex-end;">box3</div>
+            <div class="container-item" style="align-self: center;" >box4</div>
+            <div class="container-item" style="align-self: flex-start;" >box5</div>
+            <!-- <div class="container-item" >box6</div>
+            <div class="container-item" >box7</div>
+            <div class="container-item" >box8</div>
+            <div class="container-item" >box9</div>
+            <div class="container-item" >box10</div> -->
+        </div>
+
+        <ul>
+            <li>abcd</li>
+            <li>abcd</li>
+            <h1>abc</h1>
+            <p>hello</p>
+            <li>abcd</li>
+            <li>abcd</li>
+            <li>abcd</li>
+            <li>abcd</li>
+        </ul>
+        <li>abcd</li>
+        <li>abcd</li>
+        <h1>abc</h1>
+
+        <li>abcd</li>
+        <li>abcd</li>
+        <li>abcd</li>
+        <li>abcd</li>
+        
+        <div class="container">
+            <span id="box1">box 1</span>
+            <span>box 2</span>
+            <span id="box3">box 3</span>
+        </div>
+        <a href="#" style="
+        text-decoration:none;
+        ">Hello</a>
+
+        <div id="box">
+            
+        </div>
+    </body>
+</html>
