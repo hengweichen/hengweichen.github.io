@@ -1,0 +1,264 @@
+#signup-container{
+    width: 480px;
+    height: 550px;
+    /*
+    border-left: 1px solid ;
+    */
+    border-radius: 50px 0px 0px 50px;
+    /*
+    position: absolute;
+    display: block;
+    */
+    background-color:rgb(212, 221, 247, 0.8);
+    position: absolute;   
+}
+fieldset{
+    border: none;
+}   
+#signup-name{
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 50px;
+    border-radius: 50px;
+    border: 3px rgba(234,240,254,0.8); 
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+}
+#signup-password{
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 50px;
+    border-radius: 50px;
+    border: 3px rgba(234,240,254,0.8); 
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+}
+#signup-email{
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 50px;
+    border-radius: 50px;
+    border: 3px rgba(234,240,254,0.8); 
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+}
+#signup-submit{
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 30px;
+    font-size: 18px;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    border-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 2px 2px 2px rgba(46, 29, 40, 0.5);
+}
+@media only screen and (max-width: 768px){
+    body{
+        width: 100%;
+        display: flex;
+        height: 1400px;
+        flex-direction: column-reverse;
+        background-image: url("jason-leung-tCAeh1Xs0Sw-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom center;
+      }
+      #sliding-panel{
+        display: block;
+        width: 80%;
+        background-color:rgba(255, 255, 255, 0.9);
+        
+      }
+      #main-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 0;
+        min-width: 0;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        border: 4px solid none;
+        border-radius: 0;
+        box-shadow: none;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+
+      }
+    #login-container{
+        display: none;
+    }
+    #right-container{
+        display: none;
+    }
+    #signup-container{
+        width: 100%;
+        border-radius: 0;
+        margin: auto;
+        left: 0;
+        top: 0;
+        height: 1500px;
+    }
+    .logo{
+        margin-top: 100px;
+        width: 10%;
+        border: 2px outset #D4DDF7;
+        border-radius: 10px 30px;
+      }
+      h1{
+        margin-top: 50px;   
+        font-size: 55px;
+      }
+      #signup-name{
+        width: 80%;
+        margin-top: 25px;
+        height: 70px;
+      }
+      #signup-password{
+        width: 80%;
+        margin-top: 50px;
+        height: 70px;   
+      }
+      #signup-email{
+        width: 80%;
+        margin-top: 50px;
+        height: 70px;
+      }
+      #signup-submit{
+        width: 60%;
+        margin-top: 100px;
+        height: 70px;
+      } 
+      h1{
+        width: 80%;
+        display: block;
+        font-size: 55px;
+        margin: 80px auto;
+      }
+  }
+  @media only screen and (max-width: 1024px){
+    body{
+        width: 100%;
+        display: flex;
+        height: 1400px;
+        flex-direction: column-reverse;
+        background-image: url("jason-leung-tCAeh1Xs0Sw-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom center;
+      }
+      #sliding-panel{
+        display: block;
+        width: 100%;
+        background-color:rgba(255, 255, 255, 0.9);
+        
+      }
+      #main-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 0;
+        min-width: 0;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        border: 4px solid none;
+        border-radius: 0;
+        box-shadow: none;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+      }
+    #login-container{
+     display: none;
+    }
+    #right-container{
+        display: none;
+    }
+    #signup-container{
+        width: 102%;
+        border-radius: 0;
+        margin: auto;
+        left: 0px;
+        top: 0;
+        height: 1500px;
+    }
+    .logo{
+        margin-top: 100px;
+        width: 250px;
+      }
+      h1{
+        margin-top: 50px;   
+        font-size: 55px;
+        color: #2A0934;
+      }
+      #signup-name{
+        width: 80%;
+        margin-top: 25px;
+        height: 70px;
+      }
+      #signup-password{
+        width: 80%;
+        margin-top: 50px;
+        height: 70px;
+      }
+      #signup-email{
+        width: 80%;
+        margin-top: 50px;
+        height: 70px;
+      }
+      #signup-submit{
+        width: 60%;
+        margin-top: 100px;
+        height: 70px;
+        font-size: 30px;
+      } 
+      h1{
+        width: 80%;
+        display: block;
+        font-size: 55px;
+        margin: 80px auto;
+      }
+      #main-login{
+        font-size: 40px;
+        margin-bottom: 250px;
+        width: 80%;
+        left: 10%;
+        bottom: 5%;
+        position: absolute;
+        opacity: 100%;
+        z-index: 10000;
+        text-decoration: none;    
+      }
+      #main-login:hover{
+        color:blue;
+      }
+      #signup-submit:hover{
+        color:blue;
+        transform: scale(1.03);
+    }
+    #signup-name:hover{
+        color:blue;
+        transform: scale(1.03);
+    }
+    #signup-password:hover{
+        color:blue;
+        transform: scale(1.03); 
+    }
+    #signup-email:hover{
+        color:blue;
+        transform: scale(1.03); 
+    }   
+  }
+  
