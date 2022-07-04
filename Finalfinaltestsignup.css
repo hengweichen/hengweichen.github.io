@@ -1,10 +1,30 @@
+body{
+  width: 100%;
+  height: 800px;
+  max-height: 1200px;
+  margin: 120px auto;
+  font-family: sans-serif;
+  color: #2A0934;
+  background-image: url("jason-leung-tCAeh1Xs0Sw-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 148% 110%;
+  background-position: bottom center;
+}
+#right-container{
+  display: none;
+}
+#login-container{
+  display: none;
+}
 #signup-container{
-    width: 480px;
-    height: 550px;
+    left: 25%;
+    width: 50%;
+    height: 600px;
+  
     /*
     border-left: 1px solid ;
     */
-    border-radius: 50px 0px 0px 50px;
+    border-radius: 0;
     /*
     position: absolute;
     display: block;
@@ -14,7 +34,15 @@
 }
 fieldset{
     border: none;
-}   
+}
+.logo{
+  display: block;
+  margin: auto;
+} 
+h1{
+  display: block;
+  margin-left: 42%;
+}  
 #signup-name{
     display: block;
     margin: auto;
@@ -24,6 +52,11 @@ fieldset{
     border: 3px rgba(234,240,254,0.8); 
     background-color: rgba(0, 0, 0, 0.2);
     font-size: 18px;
+}
+#main-login{
+  display: block;
+  margin-left: 38%;
+  margin-top: 5%;
 }
 #signup-password{
     display: block;
@@ -75,6 +108,7 @@ fieldset{
         display: block;
         width: 80%;
         background-color:rgba(255, 255, 255, 0.9);
+        display:none;
         
       }
       #main-container{
@@ -112,8 +146,6 @@ fieldset{
     .logo{
         margin-top: 100px;
         width: 10%;
-        border: 2px outset #D4DDF7;
-        border-radius: 10px 30px;
       }
       h1{
         margin-top: 50px;   
@@ -189,7 +221,7 @@ fieldset{
     #signup-container{
         width: 102%;
         border-radius: 0;
-        margin: auto;
+        margin-top: auto;
         left: 0px;
         top: 0;
         height: 1500px;
@@ -234,7 +266,7 @@ fieldset{
         font-size: 40px;
         margin-bottom: 250px;
         width: 80%;
-        left: 10%;
+        right: 9%;
         bottom: 5%;
         position: absolute;
         opacity: 100%;
